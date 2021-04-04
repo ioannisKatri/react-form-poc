@@ -35,7 +35,7 @@ export default function Form() {
                 <FormInput
                     type="text"
                     name="username"
-                    id="username-input"
+                    id="username"
                     label="Username"
                     value={username}
                     handleChange={handleChange.bind(this, setUsername)}
@@ -43,8 +43,8 @@ export default function Form() {
                 <FormInput
                     type="password"
                     name="password"
-                    id="password-input"
-                    label="password-input"
+                    id="password"
+                    label="password"
                     value={password}
                     handleChange={handleChange.bind(this, setPassword)}
                 />
